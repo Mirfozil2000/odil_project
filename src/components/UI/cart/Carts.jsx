@@ -30,7 +30,7 @@ const Carts = () => {
             <h6 className="text-center">Hali savatga ovqat qo'shmadingiz</h6>
           ) : (
             cartProducts.map((item, index) => (
-              <CartItem item={item} key={index} onClose={toggleCart}/>
+              <CartItem item={item} key={index} onClose={toggleCart} />
             ))
           )}
         </div>
@@ -40,7 +40,7 @@ const Carts = () => {
             Summa : <span>{totalAmount}.000</span>
           </h6>
           <button>
-<a href="https://t.me/WMalfa">sotib olish</a>
+            <a href="https://t.me/WMalfa">sotib olish</a>
           </button>
         </div>
       </ListGroup>

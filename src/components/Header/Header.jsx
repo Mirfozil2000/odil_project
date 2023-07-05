@@ -23,10 +23,6 @@ const nav__links = [
     display: "Savat",
     path: "/cart",
   },
-  {
-    display: "Kontaktlar",
-    path: "/contact",
-  },
 ];
 
 const Header = () => {

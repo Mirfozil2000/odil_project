@@ -20,7 +20,7 @@ const ProductCard = (props) => {
         title,
         image01,
         price,
-        extraIngredients
+        extraIngredients,
       })
     );
   };
@@ -36,7 +36,7 @@ const ProductCard = (props) => {
       <div className="d-flex flex-column align-items-center justify-content-between">
         <span className="product__price mb-2">{price} 000 </span>
         <button className="addTOCART__btn">
-        <a href="tel:998991432627"> sotib olish </a> 
+          <div onClick={() => addToCart()}> savatga qoshish </div>
         </button>
       </div>
     </div>
